@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "75c07454-1cf5-46e9-9a99-9af538e58708",
+		"name": "uml_gemini",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33026805"
+	},
+	"item": [
+		{
+			"name": "Uml diagrams",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"prompt\":\"research managment system\",\r\n    \"option\":\"Activity diagram\"/\"Usecase diagram\"/\"Sequence diagram\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "MuhammadIsmail.pythonanywhere.com/uml"
+			},
+			"response": []
+		}
+	]
+}
